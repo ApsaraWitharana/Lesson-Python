@@ -39,6 +39,36 @@ if isinstance(myint, int) and myint == 20:
      # can not using this ->not all arguments converted during string formatting
      # print("String:" + myint)
 
+# Ex 02
+def tree(height):
+    length = height*2 -1
+    stars =1
+    for i in range(1,height+1):
+        print(("*" * stars).center(length))
+        stars += 2
+        # print("*" .center(length))
 
+tree(9)
+tree(20)
+
+# Day 2 ---> List
+
+mylist = [1,2,3,4,5,6,7,8,9,10]
+mylist.append(1)
+mylist.append(2)
+mylist.append(3)
+mylist.append(4)
+mylist.append(5)
+mylist.append(6)
+mylist.append(7)
+mylist.append(8)
+mylist.append(9)
+mylist.append(10)
+print(mylist[10])
+
+# prints out 1,2,3,4,5,6,7,8,9,10
+
+for x in mylist:
+ print(x)
 
 
