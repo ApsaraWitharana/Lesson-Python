@@ -181,3 +181,27 @@ for strings in range(10):
  print("Good Night!!")
 
 print("==============")
+
+# EX-04
+x = 20*20
+y = 20*20
+
+big_list = x+y
+
+if x == 400 and y == 400:
+ print("Sorry...")
+
+ # if big_list.count(x) == 400 and big_list.count(y) == 400:
+ #  print("hiiii...")
+
+ print("==============")
+
+# EX-05
+
+for strings in range(10):
+ print("Sorry!!!!")
+
+ print("==============")
+
+
+
