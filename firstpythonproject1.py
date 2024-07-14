@@ -307,3 +307,48 @@ for strings in range(10):
  # Split the string into three separate strings,
  # each containing only a word
  print("Split the words of the string: %s" % s.split(" "))
+
+ print("==============")
+
+ # Day 5 ---> Conditions
+
+ # Notice that variable assignment is done using a single equals operator "=",
+ # whereas comparison between two variables is done using the double equals operator "==". The "not equals" operator is marked as "!=".
+
+ x = 2
+ print(x == 2) # prints out True
+ print(x == 3) # prints out False
+ print(x < 3) # prints out True
+
+ print("==============")
+
+ # Boolean operators
+
+ name = "Dusvi"
+ age = 23
+ if name == "Dusvi" and age == 23:
+     print("Your name is Dusvi, and you are also 23 years old.")
+
+ if name == "Dusvi" or name == "Hero":
+     print("Your name is either Dusvi or Hero.")
+
+print("==============")
+
+ # The "in" operator -The "in" operator could be used to check if a specified object exists within an iterable object container
+
+name = "Dusvi"
+if name in ["Dusvi","Hero"]:
+ print("Your name is either Dusvi or Hero.")
+
+
+ # The 'is' operator =>Unlike the double equals operator "==", the "is" operator does not match the values of the variables, but the instances themselves.
+
+ x = [1,2,3]
+ y = [1,2,3]
+ print(x == y)
+ print(x is y)
+
+ # The "not" operator =>Using "not" before a boolean expression
+
+ print(not False) # Prints out True
+ print((not False) == (False)) # Prints out False
